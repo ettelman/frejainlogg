@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 const apiBaseUrl = 'https://services.test.frejaeid.com';
 
 const pfxPath = './Bonnier_News.pfx'; // 
-const pfxPassphrase = '5iTCTp'; // 
+const pfxPassphrase = ''; // 
 
 async function post(url, data) {
   const encodedData = Buffer.from(JSON.stringify(data)).toString('base64');
